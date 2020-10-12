@@ -1,79 +1,119 @@
 {
-  "a_galaxy_workflow": "true",
-  "tags": [],
-  "format-version": "0.1",
-  "uuid": "120bee9d-4b50-46e5-a0f4-1cf13c78f243",
-  "steps": {
-    "1": {
-      "inputs": [
-        {
-          "description": "runtime parameter for tool Concatenate datasets (for test workflows)",
-          "name": "input1"
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "format-version": "0.1",
+    "name": "Charles Demo Workflow",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "input1"
+                }
+            ],
+            "label": "input1",
+            "name": "Input dataset",
+            "outputs": [],
+            "tool_id": null,
+            "tool_state": "{\"optional\": false}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "4eee58df-4eae-4792-8188-7e4b2a5ff816",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output",
+                    "uuid": "4fda7f6e-544d-4700-8a7b-f5e101564d3f"
+                }
+            ]
+        },
+        "1": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
+            "errors": null,
+            "id": 1,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Concatenate datasets",
+                    "name": "inputs"
+                }
+            ],
+            "label": null,
+            "name": "Concatenate datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ddf54b12c295",
+                "name": "text_processing",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"inputs\": {\"__class__\": \"RuntimeValue\"}, \"queries\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.1.0",
+            "type": "tool",
+            "uuid": "32a3fb55-6f5e-4409-ae5d-4ef3378a7ddc",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "c8f969b9-f51a-4d3a-b60f-ec5dbddeb917"
+                }
+            ]
+        },
+        "2": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
+            "errors": null,
+            "id": 2,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Concatenate datasets",
+                    "name": "inputs"
+                }
+            ],
+            "label": null,
+            "name": "Concatenate datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
+            "tool_shed_repository": {
+                "changeset_revision": "ddf54b12c295",
+                "name": "text_processing",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"inputs\": {\"__class__\": \"RuntimeValue\"}, \"queries\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.1.0",
+            "type": "tool",
+            "uuid": "a043a4f5-509f-4e09-91a1-ef988fb21543",
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "out_file1",
+                    "uuid": "7aeb5f3a-f9d9-4cec-9d36-e84f573a2885"
+                }
+            ]
         }
-      ],
-      "errors": null,
-      "name": "Concatenate datasets (for test workflows)",
-      "tool_id": "tp_cat",
-      "outputs": [
-        {
-          "type": "input",
-          "name": "out_file1"
-        }
-      ],
-      "post_job_actions": {},
-      "tool_version": "1.0",
-      "workflow_outputs": [
-        {
-          "output_name": "out_file1",
-          "uuid": "0a88b8e1-589a-4b34-83c0-044e73730c29",
-          "label": "wf_output_1"
-        }
-      ],
-      "label": "first_cat",
-      "input_connections": {
-        "input1": {
-          "output_name": "output",
-          "id": 0
-        }
-      },
-      "id": 1,
-      "position": {
-        "top": 10,
-        "left": 10
-      },
-      "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"input1\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-      "content_id": "tp_cat",
-      "type": "tool",
-      "annotation": "",
-      "uuid": "4ba0ea44-4eeb-4d66-b761-50f6608b551b"
     },
-    "0": {
-      "inputs": [
-        {
-          "description": "",
-          "name": "input1"
-        }
-      ],
-      "errors": null,
-      "name": "Input dataset",
-      "tool_id": null,
-      "outputs": [],
-      "tool_version": null,
-      "workflow_outputs": [],
-      "label": "input1",
-      "input_connections": {},
-      "id": 0,
-      "position": {
-        "top": 0,
-        "left": 0
-      },
-      "tool_state": "{\"name\": \"input1\"}",
-      "content_id": null,
-      "type": "data_input",
-      "annotation": "",
-      "uuid": "4eee58df-4eae-4792-8188-7e4b2a5ff816"
-    }
-  },
-  "annotation": "",
-  "name": "Demo Workflow"
+    "tags": [],
+    "uuid": "cbf9ea67-ed5c-4d70-936a-0f3475940de1",
+    "version": 1
 }
