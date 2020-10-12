@@ -42,7 +42,7 @@
         "left": 10
       },
       "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"input1\": \"{\\\"__class__\\\": \\\"RuntimeValue\\\"}\"}",
-      "content_id": "cat",
+      "content_id": "tp_cat",
       "type": "tool",
       "annotation": "",
       "uuid": "4ba0ea44-4eeb-4d66-b761-50f6608b551b"
