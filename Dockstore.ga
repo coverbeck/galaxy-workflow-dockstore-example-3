@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "Charles Demo Workflow",
+    "name": "Charles Concat Workflow",
     "steps": {
         "0": {
             "annotation": "",
@@ -19,6 +19,16 @@
             "label": "input1",
             "name": "Input dataset",
             "outputs": [],
+            "position": {
+                "bottom": 199.8000030517578,
+                "height": 61.80000305175781,
+                "left": 338,
+                "right": 538,
+                "top": 138,
+                "width": 200,
+                "x": 338,
+                "y": 138
+            },
             "tool_id": null,
             "tool_state": "{\"optional\": false}",
             "tool_version": null,
@@ -28,7 +38,7 @@
                 {
                     "label": null,
                     "output_name": "output",
-                    "uuid": "4fda7f6e-544d-4700-8a7b-f5e101564d3f"
+                    "uuid": "1d3b55b2-7730-4416-9f6f-2be04bf42026"
                 }
             ]
         },
@@ -52,10 +62,20 @@
                     "type": "input"
                 }
             ],
+            "position": {
+                "bottom": 779.1000061035156,
+                "height": 113.60000610351562,
+                "left": 1180,
+                "right": 1380,
+                "top": 665.5,
+                "width": 200,
+                "x": 1180,
+                "y": 665.5
+            },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
             "tool_shed_repository": {
-                "changeset_revision": "ddf54b12c295",
+                "changeset_revision": "74a8bef53a00",
                 "name": "text_processing",
                 "owner": "bgruening",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
@@ -63,12 +83,12 @@
             "tool_state": "{\"inputs\": {\"__class__\": \"RuntimeValue\"}, \"queries\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "0.1.0",
             "type": "tool",
-            "uuid": "32a3fb55-6f5e-4409-ae5d-4ef3378a7ddc",
+            "uuid": "c82e77bb-c22a-4f90-87dd-b2a876760a33",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "out_file1",
-                    "uuid": "c8f969b9-f51a-4d3a-b60f-ec5dbddeb917"
+                    "uuid": "7a86a32a-1bbf-4273-9fcb-361826cb8028"
                 }
             ]
         },
@@ -92,10 +112,20 @@
                     "type": "input"
                 }
             ],
+            "position": {
+                "bottom": 779.1000061035156,
+                "height": 113.60000610351562,
+                "left": 1180,
+                "right": 1380,
+                "top": 665.5,
+                "width": 200,
+                "x": 1180,
+                "y": 665.5
+            },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0",
             "tool_shed_repository": {
-                "changeset_revision": "ddf54b12c295",
+                "changeset_revision": "74a8bef53a00",
                 "name": "text_processing",
                 "owner": "bgruening",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
@@ -103,17 +133,17 @@
             "tool_state": "{\"inputs\": {\"__class__\": \"RuntimeValue\"}, \"queries\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "0.1.0",
             "type": "tool",
-            "uuid": "a043a4f5-509f-4e09-91a1-ef988fb21543",
+            "uuid": "9a159d31-79c2-416d-ba4d-014a4fc26ba0",
             "workflow_outputs": [
                 {
                     "label": null,
                     "output_name": "out_file1",
-                    "uuid": "7aeb5f3a-f9d9-4cec-9d36-e84f573a2885"
+                    "uuid": "16924901-f7f7-40c5-90b8-5cff2b283d88"
                 }
             ]
         }
     },
     "tags": [],
-    "uuid": "cbf9ea67-ed5c-4d70-936a-0f3475940de1",
+    "uuid": "2f2fd823-6d75-464b-8e11-3e9157b6f07a",
     "version": 1
 }
