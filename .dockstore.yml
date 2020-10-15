@@ -1,6 +1,6 @@
 # Tweak to see if Dockstore picks it up.
 version: 1.2
 workflows:
-- subclass: nfl
+- subclass: galaxy
   primaryDescriptorPath: /Dockstore.ga
 
