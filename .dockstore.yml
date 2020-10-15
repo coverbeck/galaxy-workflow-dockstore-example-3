@@ -1,8 +1,6 @@
 # Tweak to see if Dockstore picks it up.
 version: 1.2
 workflows:
-- subclass: Galaxy
+- subclass: nfl
   primaryDescriptorPath: /Dockstore.ga
-  testParameterFiles:
-  - /Dockstore-test.yml
 
