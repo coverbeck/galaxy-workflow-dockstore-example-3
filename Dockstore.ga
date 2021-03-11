@@ -2,7 +2,7 @@
     "a_galaxy_workflow": "true",
     "annotation": "",
     "format-version": "0.1",
-    "name": "Charles Concat Workflow",
+    "name": "Charles Concat Workflow test",
     "steps": {
         "0": {
             "annotation": "",
